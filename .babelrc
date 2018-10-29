@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "chrome": ["61.0.0"],
+        "firefox": ["55.0.0"]
+      },
+      "debug": true
+    }],
+    "react"
+  ],
+  "plugins": [
+    "transform-class-properties"
+  ]
+}
